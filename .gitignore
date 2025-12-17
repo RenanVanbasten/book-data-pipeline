@@ -1,0 +1,15 @@
+# Ambiente Virtual
+venv/
+.venv/
+env/
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Dados (Camada Bronze/Raw costuma ser ignorada)
+data/raw/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
