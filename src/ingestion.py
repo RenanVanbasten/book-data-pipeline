@@ -51,4 +51,4 @@ def extrair_livros_completo(tema, total_livros=200):
     print(f"Processo finalizado. {len(df)} livros salvos em data/raw/livros_brutos.csv")
     return df
 
-df_raw = extrair_livros_completo("data engineering")
+df_raw = extrair_livros_completo("best sellers", total_livros=1000)
